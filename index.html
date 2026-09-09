@@ -6,8 +6,9 @@
     <style>
         body { 
             font-family: Arial, sans-serif; 
-            align-items: center; 
-            height: 100vh; 
+            display: flex;
+            align-items: flex-start;  * 'flex-start' platziert den Inhalt ganz oben */
+            min-height: 100vh; 
             background: #ffffff; 
             color: Black; 
             margin: 0; 
@@ -16,7 +17,7 @@
     </style>
 </head>
 <body>
-    <h1 id="msg">Keine Projektseite/h1>
+    <h1 id="msg">x Keine Projektseite/h1>
 
     <script>
         const params = new URLSearchParams(window.location.search);
